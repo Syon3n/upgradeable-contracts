@@ -18,4 +18,11 @@ npx hardhat
 What do you want to do?
  - Select "Create an empty hardhat.comfig.js"
 ```
-Then you will see ```Config file created```
+Then you will see ```Config file created```.
+
+#### Then, add the following code to the hardhat.config.js file
+```
+require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-ethers");
+require("@openzeppelin/hardhat-upgrades");
+```
