@@ -18,4 +18,4 @@ npx hardhat
 What do you want to do?
  - Select "Create an empty hardhat.comfig.js"
 ```
-Then you will see Config file created
+Then you will see ```Config file created```
