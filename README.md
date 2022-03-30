@@ -20,14 +20,14 @@ What do you want to do?
 ```
 Then you will see ```Config file created```.
 
-#### Then, add the following code to the hardhat.config.js file.
+#### Then, add the following code to the ```hardhat.config.js``` file.
 ```
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
 require("@openzeppelin/hardhat-upgrades");
 ```
 
-#### In addition, create the "contracts", "scripts", and "test" folders.
+#### In addition, create the ```contracts```, ```scripts```, and ```test``` folders.
 ```
 mkdir contracts scripts test
 ```
@@ -46,7 +46,7 @@ Files:
  - package.json
 ```
 
-#### At this point, make sure that hardhat.config.js looks like this
+#### At this point, make sure that ```hardhat.config.js``` looks like this
 ```
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
