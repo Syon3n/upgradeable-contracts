@@ -55,8 +55,11 @@ require("@openzeppelin/hardhat-upgrades");
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
- 
+
 module.exports = {
   solidity: "0.7.3",
 };
 ```
+
+## Step2: Creating a contract that can be upgraded
+#### Use the deployProxy from OpenZeppelin's Upgrades plugin.
