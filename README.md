@@ -62,4 +62,4 @@ module.exports = {
 ```
 
 ## Step2: Creating a contract that can be upgraded
-#### Use the deployProxy from OpenZeppelin's Upgrades plugin.
+#### Use the deployProxy from OpenZeppelin's [Upgrades plugin](https://docs.openzeppelin.com/learn/upgrading-smart-contracts).
